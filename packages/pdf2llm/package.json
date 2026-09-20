@@ -1,0 +1,34 @@
+{
+  "name": "pdf2llm",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zakaria elalaoui",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    },
+    "./*": {
+      "import": "./src/*/index.js"
+    }
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "pdf-parse": "^2.4.5",
+    "pdf2pic": "^3.2.0",
+    "pdfjs-dist": "5.7.284",
+    "tesseract.js": "^7.0.0",
+    "unpdf": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakarialaoui10/pdf2llm.git",
+    "directory": "packages/pdf2llm"
+  }
+}

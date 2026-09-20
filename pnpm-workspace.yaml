@@ -1,0 +1,11 @@
+packages:
+  - "packages/*"
+  - "demos/*"
+
+allowBuilds:
+  esbuild: false
+  tesseract.js: false
+  workerd: false
+
+# Define a catalog of version ranges.
+# catalog:
