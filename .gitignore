@@ -1,4 +1,5 @@
 *.pdf
+*.traineddata
 
 # Logs
 logs
